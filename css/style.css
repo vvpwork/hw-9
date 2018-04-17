@@ -5,6 +5,9 @@ body{
     color: #656565;
 
 }
+.container{
+    max-width: 1000px;
+}
 ul{
     padding: 0;
     margin: 0;
@@ -30,6 +33,7 @@ ul{
 .register-list{
     list-style:none;
     display: flex;
+    justify-content:;
     
 }
 
@@ -175,8 +179,13 @@ ul{
         display: flex; 
         justify-content: space-between;
         width: 100%;
-        
-        
+    }
+
+    .register-list{
+        justify-content:flex-end;
+    }
+    .logo{
+        justify-content: flex-start;
     }
     .site-nav > .col-12:first-child{
         order: 2;
@@ -187,12 +196,12 @@ ul{
         font-size: 20px;
     }
     .main-header {
-        padding-top: 30px;
+        padding-top: 50px;
         height: 700px;
     }
 
     .main-header .row:first-child{
-        margin-bottom: 150px;
+        margin-bottom: 130px;
     }
 
     .main-header h2{
